@@ -1,0 +1,6 @@
+/* CapriMyDay Design System — Global entry point
+   Import only; never write rules here. */
+
+@import url('./tokens/colors.css');
+@import url('./tokens/typography.css');
+@import url('./tokens/spacing.css');

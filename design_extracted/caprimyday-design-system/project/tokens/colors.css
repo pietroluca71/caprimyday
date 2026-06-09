@@ -1,0 +1,64 @@
+/* CapriMyDay — Color Tokens
+   ========================================================================= */
+
+:root {
+  /* ── Brand palette ──────────────────────────────────────────────────── */
+  --color-rosa:        #e5abbe;
+  --color-rosa-light:  #f2d4df;
+  --color-rosa-lighter:#f9edf1;
+  --color-rosa-dark:   #c4899e;
+  --color-white:       #ffffff;
+  --color-grigio:      #8e9a9b;
+  --color-grigio-light:#b3bcbd;
+  --color-grigio-dark: #6b7778;
+  --color-nero:        #2c3233;
+
+  /* ── Extended neutrals ──────────────────────────────────────────────── */
+  --neutral-50:  #f7f8f8;
+  --neutral-100: #eef0f0;
+  --neutral-200: #dde1e1;
+  --neutral-300: #c4caca;
+  --neutral-400: #a4adae;
+  --neutral-500: #8e9a9b;
+  --neutral-600: #6b7778;
+  --neutral-700: #565f60;
+  --neutral-800: #3e4647;
+  --neutral-900: #2c3233;
+
+  /* ── Semantic: surfaces ─────────────────────────────────────────────── */
+  --surface-page:       var(--color-white);
+  --surface-card:       var(--color-white);
+  --surface-elevated:   var(--color-white);
+  --surface-muted:      var(--neutral-50);
+  --surface-accent:     var(--color-rosa-lighter);
+  --surface-accent-bold:var(--color-rosa);
+  --surface-dark:       var(--neutral-900);
+
+  /* ── Semantic: text ─────────────────────────────────────────────────── */
+  --text-primary:   var(--neutral-900);
+  --text-secondary: var(--color-grigio);
+  --text-muted:     var(--color-grigio-light);
+  --text-on-accent: var(--color-white);
+  --text-on-dark:   var(--color-white);
+  --text-link:      var(--color-rosa-dark);
+
+  /* ── Semantic: borders ──────────────────────────────────────────────── */
+  --border-default:  var(--neutral-200);
+  --border-subtle:   var(--neutral-100);
+  --border-accent:   var(--color-rosa);
+  --border-focus:    var(--color-rosa);
+
+  /* ── Semantic: interactive ──────────────────────────────────────────── */
+  --interactive-primary:       var(--color-rosa);
+  --interactive-primary-hover: var(--color-rosa-dark);
+  --interactive-primary-text:  var(--color-white);
+  --interactive-secondary:       transparent;
+  --interactive-secondary-hover: var(--color-rosa-lighter);
+  --interactive-secondary-text:  var(--color-rosa-dark);
+
+  /* ── Status (minimal — weddings are not dashboards) ─────────────────── */
+  --status-success: #7dab8a;
+  --status-warning: #d4a96a;
+  --status-error:   #c87070;
+  --status-info:    var(--color-grigio);
+}

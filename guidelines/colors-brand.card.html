@@ -1,0 +1,23 @@
+<!-- @dsCard group="Colors" viewport="700x120" name="Brand Palette" subtitle="Rosa, White, Grey — the three core brand colors" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body { font-family: var(--font-body); background: var(--neutral-50); display: flex; align-items: center; justify-content: center; height: 120px; padding: 16px; gap: 16px; }
+  .swatch { flex: 1; height: 88px; border-radius: var(--radius-md); display: flex; flex-direction: column; justify-content: flex-end; padding: 10px 14px; }
+  .swatch span { font-size: 11px; font-weight: 500; letter-spacing: 0.04em; }
+  .swatch .hex { font-size: 12px; font-weight: 400; opacity: 0.75; font-family: monospace; }
+  .rosa { background: var(--color-rosa); color: #fff; }
+  .white { background: var(--color-white); color: var(--neutral-800); border: 1px solid var(--neutral-200); }
+  .grigio { background: var(--color-grigio); color: #fff; }
+</style>
+</head>
+<body>
+  <div class="swatch rosa"><span>Rosa</span><span class="hex">#e5abbe</span></div>
+  <div class="swatch white"><span>White</span><span class="hex">#ffffff</span></div>
+  <div class="swatch grigio"><span>Grigio</span><span class="hex">#8e9a9b</span></div>
+</body>
+</html>

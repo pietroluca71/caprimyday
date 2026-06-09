@@ -1,0 +1,20 @@
+<!-- @dsCard group="Colors" viewport="700x100" name="Status Colors" subtitle="Success, warning, error — muted to match brand warmth" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body { font-family: var(--font-body); background: var(--color-white); display: flex; align-items: center; justify-content: center; height: 100px; padding: 16px; gap: 16px; }
+  .swatch { flex: 1; height: 68px; border-radius: var(--radius-md); display: flex; align-items: flex-end; padding: 8px 12px; }
+  .swatch span { font-size: 11px; font-weight: 500; color: #fff; }
+</style>
+</head>
+<body>
+  <div class="swatch" style="background: var(--status-success);"><span>Success</span></div>
+  <div class="swatch" style="background: var(--status-warning);"><span>Warning</span></div>
+  <div class="swatch" style="background: var(--status-error);"><span>Error</span></div>
+  <div class="swatch" style="background: var(--status-info);"><span>Info</span></div>
+</body>
+</html>

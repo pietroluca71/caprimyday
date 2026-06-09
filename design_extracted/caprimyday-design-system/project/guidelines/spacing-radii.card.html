@@ -1,0 +1,24 @@
+<!-- @dsCard group="Spacing" viewport="700x120" name="Border Radius" subtitle="From sharp to pill — sm (4px) through full" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body { font-family: var(--font-body); background: var(--color-white); display: flex; align-items: center; justify-content: center; height: 120px; padding: 16px 28px; gap: 20px; }
+  .item { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .box { width: 56px; height: 56px; background: var(--color-rosa-light); border: 1.5px solid var(--color-rosa); }
+  .label { font-size: 10px; color: var(--text-secondary); font-family: monospace; }
+</style>
+</head>
+<body>
+  <div class="item"><div class="box" style="border-radius: var(--radius-none);"></div><span class="label">0</span></div>
+  <div class="item"><div class="box" style="border-radius: var(--radius-sm);"></div><span class="label">4px</span></div>
+  <div class="item"><div class="box" style="border-radius: var(--radius-md);"></div><span class="label">8px</span></div>
+  <div class="item"><div class="box" style="border-radius: var(--radius-lg);"></div><span class="label">12px</span></div>
+  <div class="item"><div class="box" style="border-radius: var(--radius-xl);"></div><span class="label">16px</span></div>
+  <div class="item"><div class="box" style="border-radius: var(--radius-2xl);"></div><span class="label">24px</span></div>
+  <div class="item"><div class="box" style="border-radius: var(--radius-full);"></div><span class="label">full</span></div>
+</body>
+</html>
