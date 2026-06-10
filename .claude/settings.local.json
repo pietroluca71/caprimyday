@@ -3,7 +3,11 @@
     "allow": [
       "WebFetch(domain:api.anthropic.com)",
       "PowerShell($src = \"C:\\\\Users\\\\Admin\\\\.claude\\\\projects\\\\C--Users-Admin-Desktop-claudecode-Capri-My-Day\\\\b489e773-9a7f-451f-becb-39339766233e\\\\tool-results\\\\webfetch-1781011702473-y6cg5h.bin\"; $dest = \"C:\\\\Users\\\\Admin\\\\Desktop\\\\claudecode\\\\Capri My Day\\\\design_extracted\"; New-Item -ItemType Directory -Force $dest | Out-Null; Copy-Item $src \"$dest\\\\design.tar.gz\"; tar -xzf \"$dest\\\\design.tar.gz\" -C $dest; Get-ChildItem $dest -Recurse | Select-Object FullName)",
-      "Bash(claude mcp *)"
+      "Bash(claude mcp *)",
+      "Bash(grep -v \"^\\\\s*//\")",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
