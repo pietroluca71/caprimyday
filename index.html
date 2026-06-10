@@ -1071,25 +1071,12 @@
       .intro { padding: var(--space-12) var(--space-5); }
 
       .imagine { padding: var(--space-12) var(--space-5); }
-      .imagine__photo {
-        margin-left: calc(-1 * var(--space-5));
-        margin-right: calc(-1 * var(--space-5));
-        border-radius: 0;
-        aspect-ratio: 4/3;
-        height: auto;
-      }
+      .imagine__photo { height: 260px; }
 
       .venues { padding: var(--space-12) var(--space-4); }
-      .venues__grid {
-        grid-template-columns: 1fr;
-        margin-left: calc(-1 * var(--space-4));
-        margin-right: calc(-1 * var(--space-4));
-        max-width: none;
-        gap: var(--space-2);
-      }
-      .venues__item { border-radius: 0; }
-      .venues__item--large img { height: 320px; }
-      .venues__item:not(.venues__item--large) img { height: 260px; }
+      .venues__grid { grid-template-columns: 1fr; }
+      .venues__item--large .photo-placeholder { height: 220px; }
+      .venues__item:not(.venues__item--large) .photo-placeholder { height: 180px; }
 
       .contrast { padding: var(--space-12) var(--space-5); }
       .contrast__header { margin-bottom: var(--space-8); }
@@ -1102,8 +1089,8 @@
       .testimonials { padding: var(--space-12) var(--space-5); }
       .testimonials__header { margin-bottom: var(--space-8); }
 
-      .photo-strip { grid-template-columns: 1fr; margin: 0; }
-      .photo-strip__item { height: 500px; }
+      .photo-strip { grid-template-columns: repeat(2, 1fr); }
+      .photo-strip__item { height: 140px; }
 
       .scarcity { padding: var(--space-10) var(--space-4); }
       .scarcity__inner { padding: var(--space-6) var(--space-5); }
@@ -1118,13 +1105,7 @@
       .faq__a { padding: 0 var(--space-4) var(--space-4); }
 
       .team { padding: var(--space-12) var(--space-5); }
-      .team__photo {
-        margin-left: calc(-1 * var(--space-5));
-        margin-right: calc(-1 * var(--space-5));
-        border-radius: 0;
-        aspect-ratio: 4/3;
-        height: auto;
-      }
+      .team__photo { height: 280px; }
       .team__header { margin-bottom: var(--space-8); }
 
       .footer { padding: var(--space-10) var(--space-5); }
