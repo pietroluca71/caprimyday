@@ -1075,8 +1075,9 @@
 
       .venues { padding: var(--space-12) var(--space-4); }
       .venues__grid { grid-template-columns: 1fr; }
+      .venues__item { height: 220px; }
       .venues__item--large .photo-placeholder { height: 220px; }
-      .venues__item:not(.venues__item--large) .photo-placeholder { height: 180px; }
+      .venues__item:not(.venues__item--large) .photo-placeholder { height: 220px; }
 
       .contrast { padding: var(--space-12) var(--space-5); }
       .contrast__header { margin-bottom: var(--space-8); }
@@ -1089,8 +1090,8 @@
       .testimonials { padding: var(--space-12) var(--space-5); }
       .testimonials__header { margin-bottom: var(--space-8); }
 
-      .photo-strip { grid-template-columns: repeat(2, 1fr); }
-      .photo-strip__item { height: 140px; }
+      .photo-strip { grid-template-columns: 1fr; gap: var(--space-3); padding: 0 var(--space-8) var(--space-3); }
+      .photo-strip__item { height: auto; aspect-ratio: 576/560; border-radius: var(--radius-md); overflow: hidden; }
 
       .scarcity { padding: var(--space-10) var(--space-4); }
       .scarcity__inner { padding: var(--space-6) var(--space-5); }
