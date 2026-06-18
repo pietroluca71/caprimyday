@@ -757,7 +757,7 @@
     }
     .testimonial-card__stars {
       color: var(--color-rosa);
-      font-size: var(--text-xs);
+      font-size: var(--text-xl);
       letter-spacing: 3px;
       margin-bottom: var(--space-5);
     }
@@ -1142,9 +1142,22 @@
     ════════════════════════════════════════════════════════════════════ */
     @media (max-width: 639px) {
       .hero__content { padding-top: 100px; padding-bottom: var(--space-12); }
+      .hero__headline { font-size: 2rem; }
+      .hero__sub { font-size: var(--text-base); }
+      .intro__headline,
+      .imagine__headline,
+      .venues__headline,
+      .contrast__headline,
+      .process__headline,
+      .testimonials__headline,
+      .scarcity__headline,
+      .form-section__headline,
+      .faq__headline,
+      .team__headline { font-size: 1.5rem; }
 
       .trust-bar { padding: var(--space-6) var(--space-5); }
       .trust-bar__inner { grid-template-columns: 1fr 1fr; gap: var(--space-5); }
+      .trust-item__number { font-size: 2.2rem; }
 
       .intro { padding: var(--space-12) var(--space-5); }
 
@@ -1175,7 +1188,7 @@
       .form-box { padding: var(--space-5) var(--space-4); }
 .faq { padding: var(--space-12) var(--space-5); }
       .faq__header { margin-bottom: var(--space-8); }
-      .faq__q { padding: var(--space-4); font-size: var(--text-sm); }
+      .faq__q { padding: var(--space-4); }
       .faq__a { padding: 0 var(--space-4) var(--space-4); }
 
       .team { padding: var(--space-12) var(--space-5); }
@@ -1385,7 +1398,7 @@
           Planning a destination wedding from abroad can feel overwhelming - different time zones, unknown suppliers, a language barrier and a thousand unknowns. That's exactly why we exist.
         </p>
         <p class="imagine__para">
-          We are based on the Amalfi Coast. We know every corner, every vendor, every permit. You bring the vision - we make it real.
+          <strong>We are based on the Amalfi Coast.</strong> We know every corner, every vendor, every permit. You bring the vision - we make it real.
         </p>
         <ul class="imagine__list">
           <li>Civil, religious and symbolic ceremonies</li>
